@@ -35,7 +35,7 @@ neurons, and *p* = 5 predictors. The model has the form
 
 <div class="figure" style="text-align: center">
 
-<img src="finalpaperrmd---kopie_files/figure-markdown_github/nn1.gif" alt="eq1"  />
+<img src="neuralnetrmd---kopie_files/figure-markdown_github/nn1.gif" alt="eq1"  />
 
 </div>
 
@@ -51,7 +51,7 @@ function is used:
 
 <div class="figure" style="text-align: center">
 
-<img src="finalpaperrmd---kopie_files/figure-markdown_github/nn2.gif" alt="eq2"  />
+<img src="neuralnetrmd---kopie_files/figure-markdown_github/nn2.gif" alt="eq2"  />
 
 </div>
 
