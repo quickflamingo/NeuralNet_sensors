@@ -68,12 +68,12 @@ output layer.
 
 <img src="neuralnetrmd---kopie_files/figure-markdown_github/cm-1.png" alt="Confusion matrix of predictions on test data."  />
 <p class="caption">
-Confusion matrix of predictions on test data.
+Figure 1: Confusion matrix of predictions on test data.
 </p>
 
 </div>
 
-Figure @ref(fig:cm) shows the confusion matrix after making predictions
+Figure 1 shows the confusion matrix after making predictions
 on the test data. The accuracy, sensitivity, specificity, precision,
 balanced accuracy, and Kappa of the predictions made on the test data
 are 0.9882, 0.9974, 0.9855, 0.9537, 0.9914, and 0.9673, repectively.
