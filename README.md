@@ -6,7 +6,7 @@ Smart thermostats are developed to measure different metrics to asses
 whether someone is occupying an office space. In this way, the
 thermostat can suspend heating/cooling if the space is not occupied in
 order to reduce energy waste. To provide this comfort, a machine
-learning model has to be built. Therefore, this analysis addreses the
+learning model has to be built. Therefore, this analysis addresses the
 following: *How can the occupancy of a room be predicted using a neural
 network?*
 
@@ -33,6 +33,12 @@ size of the output layer. Therefore, the neural network model in this
 analysis is created using a single hidden layer, with *K* = 4 hidden
 neurons, and *p* = 5 predictors. The model has the form
 
+<div class="figure" style="text-align: center">
+
+<img src="finalpaperrmd---kopie_files/figure-markdown_github/nn1.gif" alt="eq1"  />
+
+</div>
+
 where *β*<sub>0</sub> is the bias value of the output neuron,
 *β*<sub>*k*</sub> the weight corresponding to the synapse starting at
 the *k*th hidden neuron and leading to the output neuron, *g*(*z*) is a
@@ -42,6 +48,12 @@ the the synapses leading to the *k*th hidden neuron, *X*<sub>*j*</sub>
 represents the *j*th predictor, *k* = 1,…, *K*, and *j* = 1,…, *p*. As
 we are dealing with a binary classification, a sigmoid activation
 function is used:
+
+<div class="figure" style="text-align: center">
+
+<img src="finalpaperrmd---kopie_files/figure-markdown_github/nn2.gif" alt="eq2"  />
+
+</div>
 
 The training process consists of determining the bias and weight
 parameters between the neurons by minimizing the cross entropy error
